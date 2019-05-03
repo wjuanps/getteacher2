@@ -1,0 +1,281 @@
+@charset "UTF-8";
+
+ul.informacoes {
+    list-style: none;
+    margin-top: 7px;
+    margin-left: 4px;
+}
+
+ul.informacoes li span {
+    font: 15px 'Trebuchet MS';
+}
+
+ul.not-mensagens, ul.notis {
+    max-height: 200px;
+    overflow: auto;
+}
+
+ul.notis {
+    background: linear-gradient(to bottom, #ddd, #ccc 150%);
+}
+
+div.sobre-prof p {
+    font: 15px 'Open Sans', sans-serif;
+}
+
+div #nav-menu {
+    background-color: #06e;    
+}
+
+div #hora-aula {
+    position: relative; 
+    margin-top: -40%;
+    border-radius: 5px; 
+    padding-left: 15px;
+}
+
+span.notificao {
+    width: 17px; 
+    height: 17px; 
+    border-radius:7px; 
+    text-align: center; 
+    font-size: 7pt; 
+    position: absolute; 
+    margin-left: 55%;
+}
+
+span.no {
+    margin-left: 15%;
+    width: 17px; 
+    height: 17px; 
+    border-radius:7px; 
+    text-align: center; 
+    font-size: 7pt; 
+    position: absolute; 
+}
+
+span.men-tot {
+    width: 17px; 
+    height: 17px; 
+    border-radius:7px; 
+    text-align: center; 
+    font-size: 7pt; 
+    position: absolute; 
+    margin-left: 9%;
+    margin-top: -3.4%;
+}
+
+span.tot-men {
+    display: none;
+}
+
+div.mensagem {
+    padding: 7px;
+    border-bottom: 1px dashed rgba(0,0,0,.08);
+    margin-bottom: 3%;
+}
+
+div.termo-politica {
+    text-align: justify;
+}
+
+div.sobre {
+    float: right;
+    position: relative;
+}
+
+img.op {
+    margin:9px 0px 15px;
+    transition: .2s ease-in;
+    height: 120px;
+}
+
+img.op:hover {
+    opacity: .7;
+}
+
+i.mais {
+    font-size: 25px;
+    transition: .1s ease-in;
+}
+
+i.mais:hover {
+    cursor: pointer;
+    font-size: 26px;
+}
+
+div.perfil:hover {
+    background-color: rgba(35,222,237,.2);
+    cursor: pointer;
+}
+
+div.perfil {
+    border-radius: 5px;
+    padding: 5px;
+    transition: .2s ease-in;
+}
+
+div.perfil a {
+    text-decoration: none;
+}
+
+img.foto-perfil {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    margin-left:  30%;
+}
+
+a.p {
+    padding: 4px;
+    margin-bottom: 2%;
+    margin-top: -2%;
+    margin-right: 8.55%;
+}
+
+div.chat {
+    height: 400px;
+    padding: 15px;
+}
+
+li.user {
+    margin-left: -.1%;
+}
+
+div.input-group {
+    margin-top: 3.5%;
+}
+
+p.aula {
+    text-align: left;
+}
+
+img.img-aval {
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    transition: .5s ease-in;
+}
+
+img.img-aval:hover {
+    opacity: .8;
+}
+
+.box {
+    position:relative;
+    border-radius:3px;
+    background:#ffffff;
+    border-top:3px solid #d2d6de;
+    margin-bottom:20px;
+    width:100%;
+    box-shadow:0 1px 1px rgba(0,0,0,.3);
+}
+
+.box-widget {
+    border:none;
+    position:relative;
+}
+
+.box-header {
+    color:#444;
+    display:block;
+    padding:10px;
+    position:relative;
+}
+
+.box-header.with-border {
+    border-bottom:1px solid #f4f4f4;
+}
+
+.user-block {
+    margin-bottom:15px;
+}
+
+.box-comments .username{
+    color:#666;
+    display:block;
+    font-weight:600;
+}
+
+.user-block .username,.user-block .description,.user-block .comment {
+    display:block;
+    margin-left:50px;
+}
+
+.user-block .description {
+    color:#999;
+    font-size:13px;
+}
+
+.btn-box-tool.btn:active {
+    box-shadow:none;
+}
+
+.open .btn-box-tool,.btn-box-tool:hover {
+    color:#606c84;
+}
+
+.btn-box-tool {
+    padding:5px;
+    font-size:12px;
+    background:transparent;
+    color:#97a0b3;
+}
+
+.box-body {
+    border-top-left-radius:0;
+    border-top-right-radius:0;
+    border-bottom-right-radius:3px;
+    border-bottom-left-radius:3px;
+    padding:10px;
+}
+
+.usr {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+.usr2 {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.box-comment {
+    background-color: rgba(0,0,0,.05);
+    padding: 1%;
+}
+
+.comment {
+    margin-top: 1.2%; 
+}
+
+a.titulo {
+    color: #999;
+}
+
+a.titulo:hover {
+    text-decoration: none;
+    color: silver;
+}
+
+.text-muted {
+    font-weight:400;
+    font-size:12px; 
+    color: #666;
+}
+
+a#usuario {
+    color: #006dcc;
+}
+
+a#usuario:hover {
+    text-decoration: none;
+    color: #999;
+}
+
+a.a:hover {
+    text-decoration: underline;
+    color: #006dcc;
+}
